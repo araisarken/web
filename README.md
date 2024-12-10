@@ -1,7 +1,9 @@
 ```markdown
-# Documentation for Simple Calculator and Unit Converter Website
+# Simple Calculator and Unit Converter Website
 
-This documentation provides an overview of the structure, functionality, and features of the **"Simple Calculator and Unit Converter"** website. It includes descriptions of HTML structure, CSS styles, and JavaScript logic.
+## Documentation
+
+This documentation provides an overview of the structure, functionality, and features of the **"Simple Calculator and Unit Converter"** website. It includes descriptions of the HTML structure, CSS styles, and JavaScript logic.
 
 ---
 
@@ -27,7 +29,7 @@ The webpage is divided into the following sections:
   - **Calculator**: Accepts two numbers and an operation (add, subtract, multiply, divide) to compute a result.  
   - **Unit Converter**: Accepts a value and converts it between units based on the selected conversion type.
 
-**Key HTML elements**:
+### Key HTML Elements:
 
 - **Inputs**: For user data entry (`<input type="number">`).  
 - **Select Dropdowns**: For selecting operations or unit types.  
@@ -69,6 +71,7 @@ CSS styles are defined within the `<style>` tag in the `<head>` section.
 The script handles user interactions and performs calculations and conversions.
 
 ### Calculator Logic
+
 1. **Input Elements**:  
    - Accepts two numbers and the operation (add, subtract, multiply, divide).  
 2. **Event Listener**:  
@@ -79,6 +82,7 @@ The script handles user interactions and performs calculations and conversions.
    - Alerts the user if inputs are invalid or if division by zero is attempted.
 
 ### Unit Converter Logic
+
 1. **Input Elements**:  
    - Accepts a numeric value and the desired conversion type.  
 2. **Event Listener**:  
@@ -98,11 +102,13 @@ The script handles user interactions and performs calculations and conversions.
 1. **Open the website** in any modern web browser.  
 
 ### Use the Calculator:
+
 1. Enter two numbers.  
 2. Select an operation from the dropdown.  
 3. Click **"Execute"** to see the result below.
 
 ### Use the Unit Converter:
+
 1. Enter a numeric value.  
 2. Choose a conversion type.  
 3. Click **"Convert"** to see the result below.
